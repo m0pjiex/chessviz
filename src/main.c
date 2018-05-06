@@ -3,6 +3,7 @@
 #include "board_read.h"
 #include "board_print_plain.h"
 #include "board.h"
+
 int main() {
 char  a[9][9];
 int y=1;
