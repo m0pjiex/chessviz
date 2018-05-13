@@ -1,1 +1,1 @@
-void bbuild ( char num[9][9]);
+void bBuild ( char num[9][9]);

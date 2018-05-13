@@ -6,15 +6,14 @@
 
 int main() {
 char  a[9][9];
-int y=1;
-bbuild(a);
-bprint(a);
+int y = 1;
+bBuild(a);
+bPrint(a);
 do{
 printf("\nВаш ход?\n");
 step(a);
-bprint(a);
-printf("\nПродолжить игру? 1- да, 0 - нет\n");
-scanf("%d",&y);
+bPrint(a);
+
 }while(y);
 return 0;
 }

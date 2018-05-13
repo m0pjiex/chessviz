@@ -1,1 +1,1 @@
-void bprint ( char num[9][9]);
+void bPrint ( char num[9][9]);
