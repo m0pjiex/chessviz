@@ -1,8 +1,8 @@
 #include "board_read.h"
-void bBuild ( char num[9][9]) {
-int o = 0;
-int p = 0; 
-int u = 0;
+void boardBuild ( char num[9][9]) {
+int o;
+int p; 
+int u;
 
 for (o = 0; o < 9; o++){
     for(p = 0; p < 9; p++){

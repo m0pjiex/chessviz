@@ -3,7 +3,11 @@
 #include "board.h"
 void step ( char num[9][9]){
 char hod[6];
-int o = 0,p = 0,i = 0,o1 = 0,p1 = 0;
+int o = 0;
+int p = 0;
+int i = 0;
+int o1 = 0;
+int p1 = 0;
 int flag = 1;
 int error = 0;
 char temp;

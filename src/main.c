@@ -7,12 +7,12 @@
 int main() {
 char  a[9][9];
 int y = 1;
-bBuild(a);
-bPrint(a);
+boardBuild(a);
+boardPrint(a);
 do{
-printf("\nВаш ход?\n");
+printf("\nВаш ход: \n");
 step(a);
-bPrint(a);
+boardPrint(a);
 
 }while(y);
 return 0;
