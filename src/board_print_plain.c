@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "board_print_plain.h"
 void boardPrint ( char num[9][9]) {
-    int o;
+int o;
 int p;
     for (o = 0; o < 9; o++){
 	for (p = 0; p < 9; p++){
