@@ -1,5 +1,5 @@
 language: c
-compiler: gpp
+compiler: gcc
 os: linux
 script: make
 
