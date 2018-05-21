@@ -7,10 +7,15 @@
 int main() {
 char  a[9][9];
 int y = 1;
+
 boardBuild(a);
 boardPrint(a);
+
 do{
-printf("\nВаш ход: \n");
+printf("\nХодит 1 игрок: \n");
+step(a);
+boardPrint(a);
+printf("\nХодит 2 игрок: \n");
 step(a);
 boardPrint(a);
 
